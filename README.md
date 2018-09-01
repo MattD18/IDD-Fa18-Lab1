@@ -17,7 +17,7 @@ We've copied the questions from the lab here. Answer them below!
 
 **a. What color stripes are on a 100 Ohm resistor?**
 
-Red Red black black brown (2 2 0 X 1 +/- 
+Red Red black black brown (2 2 0 X 1 +/- 1%)
  
 **b. What do you have to do to light your LED?**
 
