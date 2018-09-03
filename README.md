@@ -57,21 +57,23 @@ At 13ms, i.e delay(13), I can no longer percieve the LED to be blinking. I prove
 
 ![Blinking External LED](https://github.com/MattD18/IDD-Fa18-Lab1/blob/master/IMG_2265.MOV)
 
-https://github.com/MattD18/IDD-Fa18-Lab1/blob/master/IMG_2265.MOV
-
 
 ## Part D. Manually fade an LED
 
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
 
-Yes, the 220 ohm resistor provides a floor resistance on the brightness and the high resistance will still allow some current to flow through i.e. some power/some light
+Yes. On the low end, the attached 220 ohm resistor provides a floor resistance to ensure current doesn't get too high. On the high end, the resistance is still at a level, which allows some current to flow through. **Check Answer**
 
 ## Part E. Fade an LED using Arduino
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
-Change led to 11
+
+We needed to set the variable to the pin on the Arduino that provides power for the circuit (Pin 11)
+
+int led = 11;           // the PWM pin the LED is attached to
+
 **b. What is analogWrite()? How is that different than digitalWrite()?**
-analogwrite supports the fading of an LED- by taking a PWM value as an input (0-255), which ranges with % on-duty. As opposed to digital Write which takes voltage levels as input (high or low)
+analogWrite supports the fading of an LED by taking a PWM value as an input (0-255). This value contols % of time was is "on-duty". This is different than digitalWrite() where the input is simiply a voltage level (high or low).
 
 ## Part F. FRANKENLIGHT!!!
 
