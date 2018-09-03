@@ -34,10 +34,15 @@ I did not have to change any lines of code, I simply uploaded the Blink example 
 Within the loop:
 
 void loop() {
+
   digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  
   delay(1000);                       // wait for a second
+  
   digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  
   delay(1000);                       // wait for a second
+  
 }
 
 I changed the delay(XXXX) lines in order to change the rate of blinking. Delay takes an input in miliseconds, and following a call to digitalWrite, controls how long the LED stays on or off.
@@ -73,6 +78,7 @@ We needed to set the variable to the pin on the Arduino that provides power for 
 int led = 11;           // the PWM pin the LED is attached to
 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
+
 analogWrite supports the fading of an LED by taking a PWM value as an input (0-255). This value contols % of time was is "on-duty". This is different than digitalWrite() where the input is simiply a voltage level (high or low).
 
 ## Part F. FRANKENLIGHT!!!
