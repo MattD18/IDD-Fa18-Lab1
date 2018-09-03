@@ -87,15 +87,22 @@ analogWrite supports the fading of an LED by taking a PWM value as an input (0-2
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 
+There are 4 microcontrollers on the board (indicated on the schematic). Some tasks I think the "computers" are responsible for is processing inputs from the three buttons, controlling voltage sent to the LED and speaker, and handling the Bluetooth connection. 
+
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
 
+There are three buttons on the device, which convey information by completing a circuit when manually pressed.
+
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
+
+The device is powered through a USB port, so I would assume 5V is the maximum voltage used in the system. There is however a 3.3V node which I used for my Frankenlight.
+
 
 **d. Is information stored in your device? Where? How?**
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
-**Describe what you did here.**
+I examined the circuit board for power/ground nodes and located a 3.3V node and ground node on the side of the board which already had an LED. I then tested these nodes by building a simple LED to 220 Ohm resistor on my breadboard and tried powering it using the nodes on the device board. After confirming this worked, I soldered on wires, the LED, and a resistor.
 
 ### 3. Build your light!
 
