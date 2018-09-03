@@ -1,12 +1,5 @@
 # IDD-Fa18-Lab1: Blink!
 
-**A lab report by John Q. Student**
-
-**Fork** this repository to get a template for Lab 1 for *Developing and Designing Interactive Devices* at Cornell Tech, Fall 2018. You should modify this `README.md` file to delete this paragraph and update below. As the lab asks:
-
-> Include your responses to the bold questions on your own fork of the lab activities. Include snippets of code that explain what you did. Deliverables are due next Tuesday. Post your lab reports as `README.md` pages on your GitHub, and post a link to that on your main class hub page.
-
-We've copied the questions from the lab here. Answer them below!
 
 ## Part A. Set Up a Breadboard
 
@@ -21,6 +14,7 @@ For a 100 Ohm resistor the stripes are:
 Brown Black Brown (i.e. 10 X 10)
 
 For the 220 Ohm resistor from the lab, the stripes are:
+
 Red Red Black Black Brown (i.e. 220 X 1 +/- 1%)
  
 **b. What do you have to do to light your LED?**
@@ -32,9 +26,12 @@ To light the LED, I needed to push the button, which completes the circuit.
 ### 1. Blink the on-board LED
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
-None
+
+I did not have to change any lines of code, I simply uploaded the Blink example code.
 
 **b. What line(s) of code do you need to change to change the rate of blinking?**
+
+Within the loop:
 
 void loop() {
   digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
@@ -43,15 +40,15 @@ void loop() {
   delay(1000);                       // wait for a second
 }
 
-Need to change the delays
+I changed the delay(XXXX) lines in order to change the rate of blinking. Delay takes an input in miliseconds, and following a call to digitalWrite, controls how long the LED stays on or off.
 
 **c. What circuit element would you want to add to protect the board and external LED?**
 
-We would want to add a resistor. According to Ohm's Law I = V/R so as resistance approaches zero, current approaches infinity which causes a short circuit
+I would want to add a resistor. According to Ohm's Law (I = V/R) as resistance approaches zero, current approaches infinity which can cause a short circuit.
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
 
-At 13ms i.e delay(13) I can no longer percieve the LED to be blinking. I proved to myself the LED was blinking my recording it using the Slo-Mo function on my iphone
+At 13ms, i.e delay(13), I can no longer percieve the LED to be blinking. I proved to myself the LED was blinking my recording it using the Slo-Mo function on my iPhone.
 
 
 ### 2. Blink your LED
