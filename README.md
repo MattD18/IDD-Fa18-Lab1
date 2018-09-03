@@ -55,7 +55,9 @@ At 13ms, i.e delay(13), I can no longer percieve the LED to be blinking. I prove
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-[link to your video here; feel free to upload to youtube and just paste in a link here]
+![Blinking External LED](https://github.com/MattD18/IDD-Fa18-Lab1/blob/master/IMG_2265.MOV)
+
+https://github.com/MattD18/IDD-Fa18-Lab1/blob/master/IMG_2265.MOV
 
 
 ## Part D. Manually fade an LED
