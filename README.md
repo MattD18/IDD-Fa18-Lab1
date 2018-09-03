@@ -16,11 +16,16 @@ We've copied the questions from the lab here. Answer them below!
 
 **a. What color stripes are on a 100 Ohm resistor?**
 
-Red Red black black brown (2 2 0 X 1 +/- 1%)
+For a 100 Ohm resistor the stripes are:
+
+Brown Black Brown (i.e. 10 X 10)
+
+For the 220 Ohm resistor from the lab, the stripes are:
+Red Red Black Black Brown (i.e. 220 X 1 +/- 1%)
  
 **b. What do you have to do to light your LED?**
 
-Push the button to complete the circuit
+To light the LED, I needed to push the button, which completes the circuit.
 
 ## Part C. Blink a LED using Arduino
 
