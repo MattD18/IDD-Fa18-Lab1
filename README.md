@@ -102,7 +102,7 @@ https://github.com/MattD18/IDD-Fa18-Lab1/blob/master/E.ino
 
 See attached schematic:
 
-**TO DO**
+https://github.com/MattD18/IDD-Fa18-Lab1/blob/master/Speaker%20Schematic.docx
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 
@@ -126,8 +126,12 @@ I examined the circuit board for power/ground nodes and located a 3.3V node and 
 
 ### 3. Build your light!
 
+Frankenlight Schematic: https://github.com/MattD18/IDD-Fa18-Lab1/blob/master/Frankenlight%20Schematic.docx
+
+Frankenlight Photo: https://github.com/MattD18/IDD-Fa18-Lab1/blob/master/IMG_2269.JPG
 
 ![Frankenlight Demo](https://github.com/MattD18/IDD-Fa18-Lab1/blob/master/IMG_2268.MOV)
+
 
 
 
