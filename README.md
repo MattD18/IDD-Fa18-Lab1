@@ -33,14 +33,14 @@ I did not have to change any lines of code, I simply uploaded the Blink example 
 
 Within the loop:
 
-'''
+```
 void loop() {
   digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
   delay(1000);                       // wait for a second
   digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
   delay(1000);                       // wait for a second 
 }
-'''
+```
 
 I changed the delay(XXXX) lines in order to change the rate of blinking. Delay takes an input in miliseconds and controls how long the LED stays on or off when the function directly follows a call to digitalWrite.
 
@@ -76,15 +76,19 @@ Yes. On the low end of the potentiometer's range, the attached 220 ohm resistor 
 
 We needed to set the variable "led" to the pin on the Arduino that provides power for the circuit, which in this case is Pin 11.
 
-'''
+```
 int led = 11;           // the PWM pin the LED is attached to
-'''
+```
 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
 
 analogWrite supports the fading of an LED by taking a PWM value as an input (0-255). This value controls the fraction of time the LED is "on-duty". This is different than digitalWrite() where the input is simiply a voltage level (high or low).
 
-**Custom Fade:***
+**Custom Lighting Pattern:**
+
+https://github.com/MattD18/IDD-Fa18-Lab1/blob/master/E.ino
+
+
 
 ## Part F. FRANKENLIGHT!!!
 
