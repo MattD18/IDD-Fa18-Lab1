@@ -133,6 +133,3 @@ Frankenlight Photo: https://github.com/MattD18/IDD-Fa18-Lab1/blob/master/IMG_226
 ![Frankenlight Demo](https://github.com/MattD18/IDD-Fa18-Lab1/blob/master/IMG_2268.MOV)
 
 
-
-
-**Include any schematics or photos in your lab write-up.**
