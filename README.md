@@ -52,7 +52,11 @@ I would want to add a resistor, to ensure I didn't pass too much current to the 
 
 At 13ms, i.e delay(13), I can no longer percieve the LED to be blinking. I proved to myself the LED was blinking my recording it using the Slo-Mo function on my iPhone.
 
-**e. New Blink Pattern:
+**e. Custom Blink Pattern:
+
+![Custom Blinking Internal LED](https://github.com/MattD18/IDD-Fa18-Lab1/blob/master/IMG_2264.MOV)
+
+Script: https://github.com/MattD18/IDD-Fa18-Lab1/blob/master/C1E.ino
 
 
 ### 2. Blink your LED
