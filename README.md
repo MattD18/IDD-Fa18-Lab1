@@ -100,7 +100,7 @@ https://github.com/MattD18/IDD-Fa18-Lab1/blob/master/E.ino
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
-See attached for schematic:
+See attached schematic:
 
 **TO DO**
 
@@ -110,22 +110,25 @@ There are 4 microcontrollers on the board (indicated on the schematic). Some tas
 
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
 
-There are three buttons on the device, which convey information by completing a circuit when manually pressed.
+There are three buttons on the device, which convey information by completing a circuit when manually pressed. There is also a sensor for the Bluetooth component.
 
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
 
-**TO DO**
-The device is powered through a USB port, so I would assume 5V is the maximum voltage used in the system. There is however a 3.3V node which I used for my Frankenlight.
-
+The device is powered through a USB port, so I would assume 5V is the maximum voltage used in the system. There is however a 3.3V node which I used for my Frankenlight. There does not appear to be any transformation or regulation of the power.
 
 **d. Is information stored in your device? Where? How?**
 
+I would hypothesize that information pertaining to the Bluetooth connection is stored on my device in one of the microcontrollers that handles Bluetooth.
+
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
-I examined the circuit board for power/ground nodes and located a 3.3V node and ground node on the side of the board which already had an LED. I then tested these nodes by building a simple LED to 220 Ohm resistor on my breadboard and tried powering it using the nodes on the device board. After confirming this worked, I soldered on wires, the LED, and a resistor.
+I examined the circuit board for power/ground nodes and located a 3.3V node and ground node on the side of the board with the existing LED. I then tested these nodes by building a simple LED/220 Ohm resistor circuit on my breadboard and used those two nodes on the device board as power and ground. After confirming this worked, I soldered on the wires, the LED, and a resistor.
 
 ### 3. Build your light!
 
-**Make a video showing off your Frankenlight.**
+
+![Frankenlight Demo](https://github.com/MattD18/IDD-Fa18-Lab1/blob/master/IMG_2268.MOV)
+
+
 
 **Include any schematics or photos in your lab write-up.**
